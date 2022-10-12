@@ -1,0 +1,60 @@
+.location {
+    margin-bottom: 60px;
+
+    &::after {
+        content: "";
+        height: 100px;
+        display: block;
+        background: url("../img/separator.jpg") center center no-repeat;
+        background-size: contain;
+        margin-top: 20px;
+    }
+
+    &__heading {
+        color: #000;
+        font-family: "Lobster";
+        margin-bottom: 15px;
+        font-size: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    &__image {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        height: 450px;
+        background-size: cover !important;
+        border: 1px solid #000;
+        position: relative;
+    }
+
+    &__details {
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        background: rgba(250, 114, 104, 0.4);
+        color: #fff;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 61px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-family: "Great Vibes";
+        line-height: 52px;
+    }
+
+    &__address {
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    iframe {
+        border: 0;
+        width: 100%;
+    }
+}

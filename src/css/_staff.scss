@@ -1,0 +1,26 @@
+.staff {
+    margin-bottom: 20px;
+
+    &__heading {
+        color: #000;
+        font-family: "Lobster";
+        margin-bottom: 15px;
+        font-size: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    &__images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2%;
+
+        &__single {
+            width: 49%;
+            position: relative;
+            height: 300px;
+            max-width: 300px;
+        }
+    }
+}

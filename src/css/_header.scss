@@ -1,0 +1,38 @@
+.header {
+    padding: 5px 0 20px 0;
+    text-align: center;
+
+    &__container {
+        width: 100%;
+        max-width: 95%;
+        margin: auto;
+    }
+
+    &__title {
+        a {
+            font-family: "Great Vibes";
+            font-size: 59px;
+            padding: 21px 15px;
+            padding-right: 7px;
+            float: none;
+            display: inline-block;
+            line-height: 50px;
+            text-decoration: none;
+            color: #fff;
+        }
+        span {
+            margin-left: 6px;
+            font-family: "Great Vibes";
+            font-size: 29px;
+            letter-spacing: 1px;
+            display: inline-block;
+            color: #fff;
+            // font-weight: 400;
+        }
+    }
+
+    &__menu {
+        width: 100%;
+        margin: auto;
+    }
+}
