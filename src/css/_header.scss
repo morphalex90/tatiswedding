@@ -1,6 +1,8 @@
 .header {
     padding: 5px 0 20px 0;
     text-align: center;
+    z-index: 1;
+    position: relative;
 
     &__container {
         width: 100%;
@@ -34,5 +36,43 @@
     &__menu {
         width: 100%;
         margin: auto;
+
+        &.is-open {
+            display: block;
+        }
+
+        @media only screen and (max-width: 768px) {
+            // 768 and down
+            display: none;
+        }
+    }
+
+    &__mobile-menu-toggle {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        @media only screen and (min-width: 768px) {
+            display: none;
+        }
+
+        button {
+            position: absolute;
+            right: 15px;
+            top: 42px;
+            height: 22px;
+            width: 40px;
+            border: 0;
+            background-color: transparent;
+            cursor: pointer;
+
+            span {
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color: #fff;
+                margin-bottom: 5px;
+            }
+        }
     }
 }
