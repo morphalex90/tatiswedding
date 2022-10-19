@@ -18,13 +18,13 @@ function Homepage() {
 		<>
 			<Head>
 				<link rel="canonical" href={process.env.NEXT_PUBLIC_APP_URL} />
-				<title>Piero Nanni</title>
-				<meta name="description" content="PHP / Js Developer in love with Next.js, London based" />
+				<title>Homepage | Tati&rsquo;s Wedding</title>
+				{/* <meta name="description" content="" /> */}
 
 				<meta property="og:type" content="profile" />
-				<meta property="og:title" content="Piero Nanni" />
-				<meta property="og:description" content="PHP / Js Developer in love with Next.js, London based" />
-				<meta property="og:image" content="" />
+				<meta property="og:title" content="Homepage | Tati's Wedding" />
+				{/* <meta property="og:description" content="" /> */}
+				{/* <meta property="og:image" content="" /> */}
 				<meta property="og:url" content={process.env.NEXT_PUBLIC_APP_URL} />
 			</Head>
 
