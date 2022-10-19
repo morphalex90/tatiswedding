@@ -77,10 +77,15 @@ h1 {
         color: #333;
         font-family: "Great Vibes";
         margin-top: 10px;
-        font-size: 161px;
-        line-height: 190px;
+        font-size: 90px;
+        line-height: 90px;
         border-bottom: none;
         font-weight: normal;
+
+        @media only screen and (min-width: 768px) {
+            font-size: 161px;
+            line-height: 190px;
+        }
     }
 }
 
@@ -93,8 +98,8 @@ p {
 }
 
 main {
-    width: 100%;
-    max-width: 95%;
+    width: 95%;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 15px;
     background-color: #fff;
