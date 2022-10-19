@@ -1,17 +1,15 @@
 import { useEffect, useState } from 'react';
-import Menu from '@/components/Menu';
-import Link from 'next/link';
 
 function Header({ date }) {
     var countDownDate = new Date(date).getTime();
     const [countdown, setCountdown] = useState();
 
     useEffect(() => {
-        conta(countDownDate);
-    }, [date]);
+        count(countDownDate);
+    }, [countDownDate]);
 
 
-    const conta = (countDownDate) => {
+    const count = (countDownDate) => {
         var now = new Date().getTime();
 
         var distance = countDownDate - now;
@@ -73,8 +71,8 @@ function Header({ date }) {
 
 
     return (
-        <div class="countdown">
-            <div class="date" dangerouslySetInnerHTML={{ __html: countdown }} />
+        <div className="countdown">
+            <div className="date" dangerouslySetInnerHTML={{ __html: countdown }} />
         </div>
     );
 }
