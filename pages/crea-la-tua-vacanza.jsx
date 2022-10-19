@@ -12,15 +12,15 @@ function Vacanza() {
 	return (
 		<>
 			<Head>
-				<link rel="canonical" href={process.env.NEXT_PUBLIC_APP_URL} />
-				<title>Piero Nanni</title>
-				<meta name="description" content="PHP / Js Developer in love with Next.js, London based" />
+				<link rel="canonical" href={process.env.NEXT_PUBLIC_APP_URL + '/crea-la-tua-vacanza'} />
+				<title>Crea la tua vacanza | Tati&rsquo;s Wedding</title>
+				{/* <meta name="description" content="" /> */}
 
 				<meta property="og:type" content="profile" />
-				<meta property="og:title" content="Piero Nanni" />
-				<meta property="og:description" content="PHP / Js Developer in love with Next.js, London based" />
-				<meta property="og:image" content="" />
-				<meta property="og:url" content={process.env.NEXT_PUBLIC_APP_URL} />
+				<meta property="og:title" content="Crea la tua vacanza | Tati's Wedding" />
+				{/* <meta property="og:description" content="" /> */}
+				{/* <meta property="og:image" content="" /> */}
+				<meta property="og:url" content={process.env.NEXT_PUBLIC_APP_URL + '/crea-la-tua-vacanza'} />
 			</Head>
 
 			<Layout className="page-vacanza">
@@ -35,11 +35,15 @@ function Vacanza() {
 					<p>&nbsp;</p>
 					<p>Vicoli di cianche, archi in pietra viva, piazzette affollate: tutto magicamente adornato dal bianco. In cima al colle sorge la cattedrale, risalente al XV secolo; da vedere la colonna barocca di Sant&rsquo;Oronzo, patrono della cittadina e la chiesa di San Vito Martire, sede del Museo delle Civiltà preclassiche delle Murge meridionali.</p>
 					<p>&nbsp;</p>
-					<Image src={ostuni2} alt="Ostuni 2" title="Ostuni 2" />
+					<div className="text-center">
+						<Image src={ostuni2} alt="Ostuni 2" title="Ostuni 2" />
+					</div>
 					<p>&nbsp;</p>
 					<p>Abbandonando il centro storico si può fare un giro tra le mura aragonesi che circondano Ostuni e godere del panorama, perdendosi nei propri pensieri davanti alla piana degli ulivi e l’azzurro del mare Adriatico.</p>
 					<p>&nbsp;</p>
-					<Image src={ostuni3} alt="Ostuni 3" title="Ostuni 3" />
+					<div className="text-center">
+						<Image src={ostuni3} alt="Ostuni 3" title="Ostuni 3" />
+					</div>
 				</section>
 			</Layout>
 		</>
