@@ -20,6 +20,7 @@ class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap" rel="stylesheet" />
+                    <meta name="robots" content="noindex, nofollow" />
                 </Head>
                 <body>
                     <noscript>You need to enable JavaScript to run this app.</noscript>
