@@ -1,6 +1,6 @@
 {
-  "name": "piero_nanni",
-  "version": "0.1.0",
+  "name": "tatis_wedding",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,14 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "framer-motion": "^7.5.3",
+    "framer-motion": "^7.6.1",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "sass": "^1.55.0"
   },
   "devDependencies": {
-    "@types/node": "18.8.4",
+    "@types/node": "^18.11.2",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "eslint": "8.25.0",
