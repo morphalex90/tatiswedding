@@ -5,6 +5,13 @@ import Layout from '@/components/Layout';
 import { motion } from 'framer-motion';
 
 import Countdown from '@/components/Countdown';
+import Slider from '@/components/Slider';
+
+import bg1 from '@img/homepage/1.jpg';
+import bg2 from '@img/homepage/2.jpg';
+import bg3 from '@img/homepage/3.jpg';
+import bg4 from '@img/homepage/4.jpg';
+import bg5 from '@img/homepage/5.jpg';
 
 function Homepage() {
 	return (
@@ -20,6 +27,8 @@ function Homepage() {
 				<meta property="og:image" content="" />
 				<meta property="og:url" content={process.env.NEXT_PUBLIC_APP_URL} />
 			</Head>
+
+			<Slider images={[bg1, bg2, bg3, bg4, bg5]} />
 
 			<Layout className="page-homepage">
 				<section className="section">
