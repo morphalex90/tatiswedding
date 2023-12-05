@@ -1,10 +1,5 @@
 import Head from 'next/head';
-
 import Layout from '@/components/Layout';
-
-import { motion } from 'framer-motion';
-
-import Image from 'next/image';
 
 function Covid() {
 	return (

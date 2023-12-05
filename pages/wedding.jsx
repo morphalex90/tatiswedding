@@ -1,8 +1,5 @@
 import Head from 'next/head';
-
 import Layout from '@/components/Layout';
-
-import { motion } from 'framer-motion';
 
 import wedding1 from '@img/wedding/1.webp';
 import wedding2 from '@img/wedding/2.webp';

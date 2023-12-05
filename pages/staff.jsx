@@ -1,9 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-
 import Layout from '@/components/Layout';
-
-import { motion } from 'framer-motion';
 
 import sposi_1 from '@img/staff/sposi_1.jpeg';
 import sposi_2 from '@img/staff/sposi_2.jpeg';

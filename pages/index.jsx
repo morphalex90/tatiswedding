@@ -1,8 +1,5 @@
 import Head from 'next/head';
-
 import Layout from '@/components/Layout';
-
-import { motion } from 'framer-motion';
 
 import Countdown from '@/components/Countdown';
 import Slider from '@/components/Slider';

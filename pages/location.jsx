@@ -1,14 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
-
 import Layout from '@/components/Layout';
-
-import { motion } from 'framer-motion';
 
 import madonnaDellaNova from '@img/location/madonna_della_nova.jpg';
 import chiesaSanLuigi from '@img/location/chiesa_san_luigi.jpeg';
 import vittoriano from '@img/location/vittoriano.jpg';
-
 
 function Location() {
 	return (

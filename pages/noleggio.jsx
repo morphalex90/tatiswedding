@@ -1,14 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
-
 import Layout from '@/components/Layout';
-
-import { motion } from 'framer-motion';
 
 import ostuniLeft from '@img/ostuni/ostuni_left.jpeg';
 import ostuniRight from '@img/ostuni/ostuni_right.jpeg';
-
-
 
 function Noleggio() {
 	return (

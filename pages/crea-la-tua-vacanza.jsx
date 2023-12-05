@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-
 import Layout from '@/components/Layout';
 
 import ostuni1 from '@img/ostuni/1.jpeg';
