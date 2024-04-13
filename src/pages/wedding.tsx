@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Layout from '@/components/Layout';
 
-import wedding1 from '@img/wedding/1.webp';
-import wedding2 from '@img/wedding/2.webp';
-import wedding3 from '@img/wedding/3.webp';
+import wedding1 from '@/img/wedding/1.webp';
+import wedding2 from '@/img/wedding/2.webp';
+import wedding3 from '@/img/wedding/3.webp';
 import Image from 'next/image';
 
 function Wedding() {

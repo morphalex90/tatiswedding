@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Layout from '@/components/Layout';
 
-import ostuniLeft from '@img/ostuni/ostuni_left.jpeg';
-import ostuniRight from '@img/ostuni/ostuni_right.jpeg';
+import ostuniLeft from '@/img/ostuni/ostuni_left.jpeg';
+import ostuniRight from '@/img/ostuni/ostuni_right.jpeg';
 
 function Noleggio() {
 	return (

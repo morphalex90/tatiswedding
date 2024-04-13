@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Layout from '@/components/Layout';
 
-import madonnaDellaNova from '@img/location/madonna_della_nova.jpg';
-import chiesaSanLuigi from '@img/location/chiesa_san_luigi.jpeg';
-import vittoriano from '@img/location/vittoriano.jpg';
+import madonnaDellaNova from '@/img/location/madonna_della_nova.jpg';
+import chiesaSanLuigi from '@/img/location/chiesa_san_luigi.jpeg';
+import vittoriano from '@/img/location/vittoriano.jpg';
 
 function Location() {
 	return (

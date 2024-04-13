@@ -4,11 +4,11 @@ import Layout from '@/components/Layout';
 import Countdown from '@/components/Countdown';
 import Slider from '@/components/Slider';
 
-import bg1 from '@img/homepage/1.jpg';
-import bg2 from '@img/homepage/2.jpg';
-import bg3 from '@img/homepage/3.jpg';
-import bg4 from '@img/homepage/4.jpg';
-import bg5 from '@img/homepage/5.jpg';
+import bg1 from '@/img/homepage/1.jpg';
+import bg2 from '@/img/homepage/2.jpg';
+import bg3 from '@/img/homepage/3.jpg';
+import bg4 from '@/img/homepage/4.jpg';
+import bg5 from '@/img/homepage/5.jpg';
 
 function Homepage() {
 	return (

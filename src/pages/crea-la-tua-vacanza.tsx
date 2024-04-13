@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '@/components/Layout';
 
-import ostuni1 from '@img/ostuni/1.jpeg';
-import ostuni2 from '@img/ostuni/2.jpeg';
-import ostuni3 from '@img/ostuni/3.jpg';
+import ostuni1 from '@/img/ostuni/1.jpeg';
+import ostuni2 from '@/img/ostuni/2.jpeg';
+import ostuni3 from '@/img/ostuni/3.jpg';
 
 function Vacanza() {
 	return (
