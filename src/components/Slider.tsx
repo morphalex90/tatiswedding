@@ -1,7 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-function Slider({ images }) {
+export default function Slider({ images }: { images: any[] }) {
     return (
         <div className="slider">
             <Carousel autoPlay={false} infiniteLoop={true} showThumbs={false} showIndicators={false} >
@@ -12,5 +12,3 @@ function Slider({ images }) {
         </div>
     );
 }
-
-export default Slider;

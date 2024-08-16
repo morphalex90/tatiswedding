@@ -19,7 +19,7 @@ function Header() {
                 </div>
 
                 <div className={'header__menu' + (isMobileMenuOpen ? ' is-open' : '')}>
-                    <Menu position="header" />
+                    <Menu />
                 </div>
 
                 <div className="header__mobile-menu-toggle">
