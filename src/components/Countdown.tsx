@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 
-function Header({ date }) {
+function Header({ date }: { date: string }) {
     var countDownDate = new Date(date).getTime();
-    const [countdown, setCountdown] = useState();
+    const [countdown, setCountdown] = useState<string>();
 
     useEffect(() => {
         count(countDownDate);
     }, [countDownDate]);
 
 
-    const count = (countDownDate) => {
+    const count = (countDownDate: number) => {
         var now = new Date().getTime();
 
         var distance = countDownDate - now;
@@ -72,7 +72,7 @@ function Header({ date }) {
 
     return (
         <div className="countdown">
-            <div className="date" dangerouslySetInnerHTML={{ __html: countdown }} />
+            <div className="date" dangerouslySetInnerHTML={{ __html: countdown || '' }} />
         </div>
     );
 }
