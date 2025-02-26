@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 function Header({ date }: { date: string }) {
-    var countDownDate = new Date(date).getTime();
+    const countDownDate = new Date(date).getTime();
     const [countdown, setCountdown] = useState<string>();
 
     useEffect(() => {
@@ -10,22 +10,22 @@ function Header({ date }: { date: string }) {
 
 
     const count = (countDownDate: number) => {
-        var now = new Date().getTime();
+        const now = new Date().getTime();
 
-        var distance = countDownDate - now;
+        const distance = countDownDate - now;
 
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        // const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        var output = '';
+        let output = '';
 
         ////// Days
         const totDays = new String(days);
         output = output + '<div class="number">';
         output = output + '<div class="digits">';
-        for (var i = 0; i < totDays.length; i++) {
+        for (let i = 0; i < totDays.length; i++) {
             output = output + '<div class="digit">' + totDays.charAt(i) + '</div>';
         }
         output = output + '</div>'; // digits
@@ -36,9 +36,9 @@ function Header({ date }: { date: string }) {
         const totHours = new String(hours);
         output = output + '<div class="number">';
         output = output + '<div class="digits">';
-        var zero = (totHours.length == 1 ? '<div class="digit">0</div>' : '');
-        for (var i = 0; i < totHours.length; i++) {
-            output = output + zero + '<div class="digit">' + totHours.charAt(i) + '</div>';
+        const zeroH = (totHours.length == 1 ? '<div class="digit">0</div>' : '');
+        for (let i = 0; i < totHours.length; i++) {
+            output = output + zeroH + '<div class="digit">' + totHours.charAt(i) + '</div>';
         }
         output = output + '</div>'; // digits
         output = output + '<div class="etichetta">Ore</div>';
@@ -48,9 +48,9 @@ function Header({ date }: { date: string }) {
         const totMinutes = new String(minutes);
         output = output + '<div class="number">';
         output = output + '<div class="digits">';
-        var zero = (totMinutes.length == 1 ? '<div class="digit">0</div>' : '');
-        for (var i = 0; i < totMinutes.length; i++) {
-            output = output + zero + '<div class="digit">' + totMinutes.charAt(i) + '</div>';
+        const zeroM = (totMinutes.length == 1 ? '<div class="digit">0</div>' : '');
+        for (let i = 0; i < totMinutes.length; i++) {
+            output = output + zeroM + '<div class="digit">' + totMinutes.charAt(i) + '</div>';
         }
         output = output + '</div>'; // digits
         output = output + '<div class="etichetta">Minuti</div>';
